@@ -1,0 +1,241 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+background-color: black;
+background-image: url("../Home/Images/BG.png");
+background-image: url("../Home/Images/Level_Bg.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+height:100%;
+width:100%;
+}
+.Inf{
+position: relative;
+padding: 0px;
+padding-top: 10px;
+color: white;
+float: left;
+padding-left: 5px;
+}
+
+
+
+
+.Nav_Menu{
+position: relative;
+padding: 0px;
+padding-top: 10px;
+color: white;
+float: left;
+padding-left: 60px;
+}
+
+
+a:link{
+color: white;
+text-decoration:none;
+}
+a:hover{
+
+color: red;
+}
+a:active{
+
+color: blue;
+}
+a:visited{
+color: white;
+
+}
+
+
+
+
+
+#Nav_Wrapper{
+position: fixed;
+background-image: url("../Home/Images/Repeater_Cells.png");
+height: 36px;
+width:100%;
+min-width: 1250px;
+margin: 0px;
+float: left;
+z-index:5000;
+
+}
+
+
+
+#Nav_L{
+position: relative;
+background-image: url("../Home/Images/Ben.png");
+background-repeat: no-repeat;
+height: 36px;
+width: 300px;
+float: left;
+margin: auto;
+margin-left: 60px;
+margin-top: 15px;
+z-index:5000;
+padding: 0px;
+}
+
+#Nav_M{
+position: absolute;
+background-image: url("../Home/Images/Header_Cells.png");
+left: 50%;
+height: 36px;
+width: 630px;
+margin: auto;
+margin-left: -315px;
+padding: 0px;
+z-index:5000;
+}
+#Nav_R{
+position: relative;
+background-image: url("../Home/Images/Contact_E.png");
+width: 240px;
+height: 36px;
+background-repeat: no-repeat;
+margin-top: 15px;
+float: right;
+margin-right: 20px;
+
+ 
+
+
+}
+
+
+#Wrapper{
+position: absolute;
+background-image: url("../Home/Images/Bucket_Wrap.png");
+width:800px;
+height:400px;
+left: 50%;
+margin-left: -400px;
+margin-top: 70px;
+z-index: 1;
+}
+#canvas_wrapper{
+
+margin: 20px;
+float: left;
+
+}
+#Picture_1{
+background-image: url("../Home/Images/Contact.png");
+background-repeat: no-repeat;
+width:760px;
+height:360px;
+
+
+
+}
+#Picture_2{
+position: absolute;
+background-image: url("../Home/Images/Ben_Large.png");
+width:530px;
+height:45px;
+margin-top: -15px;
+
+
+}
+/**
+.Pic_Cells{
+padding: 0px;
+background-image: url("../Home/Images/Bucket.png");
+margin: 20px;
+margin-left: 40px;
+width: 300px;
+height: 110px;
+float: left;
+}
+.Actual_Pics{
+margin-left: 7px;
+margin-top: 7px;
+background-image: url("../Home/Images/Level_Design.png");
+padding: 0px;
+position: relative;
+background-color: grey;
+height:96px;
+width:96px;
+float:left;
+
+
+
+}
+.Actual_Pics_2{
+margin-left: 7px;
+margin-top: 7px;
+background-image: url("../Home/Images/Resume.png");
+padding: 0px;
+position: relative;
+background-color: grey;
+height:96px;
+width:96px;
+float:left;
+
+
+
+}
+.Actual_Pics_3{
+margin-left: 7px;
+margin-top: 7px;
+background-image: url("../Home/Images/About_Me.png");
+padding: 0px;
+position: relative;
+background-color: grey;
+height:96px;
+width:96px;
+float:left;
+
+
+
+}
+.Actual_Pics_4{
+margin-left: 7px;
+margin-top: 7px;
+background-image: url("../Home/Images/Contact.png");
+padding: 0px;
+position: relative;
+background-color: grey;
+height:96px;
+width:96px;
+float:left;
+
+
+**/
+}
+.Page_Name{
+color: orange;
+font-size: 18px;
+margin-top: 45px;
+margin-left: 25px;
+height:20px;
+width: 100px;
+float: left;
+
+
+}
+
+#Foot_Wrapper{
+background-image: url("../Home/Images/Repeater_Cells_Bot.png");
+position: fixed;
+height: 36px;
+width: 100%;
+bottom: 0px;
+z-index: 5000;
+
+
+}
+#Copyright_Shit{
+background-image: url("../Home/Images/CPR.png");
+width: 165px;
+height:9px;
+margin-top: 15px;
+margin-left: auto;
+margin-right: auto;
+}

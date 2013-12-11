@@ -1,0 +1,173 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+background-color: black;
+background-image: url("../Home/Images/BG.png");
+background-image: url("../Home/Images/Level_Bg.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+height:100%;
+width:100%;
+}
+.Inf{
+position: relative;
+padding: 0px;
+color: white;
+float: left;
+padding-left: 5px;
+}
+
+
+
+
+.Nav_Menu{
+position: relative;
+padding: 0px;
+padding-top: 10px;
+color: white;
+float: left;
+padding-left: 60px;
+}
+
+
+a:link{
+color: white;
+text-decoration:none;
+}
+a:hover{
+color: red;
+}
+a:active{
+color: blue;
+}
+a:visited{
+color: white;
+
+}
+
+
+
+
+
+#Nav_Wrapper{
+position: fixed;
+background-image: url("../Home/Images/Repeater_Cells.png");
+height: 36px;
+width:100%;
+min-width: 1250px;
+margin: 0px;
+float: left;
+z-index:5000;
+
+}
+
+
+
+#Nav_L{
+position: relative;
+background-image: url("../Home/Images/Ben.png");
+background-repeat: no-repeat;
+height: 36px;
+width: 300px;
+float: left;
+margin: auto;
+margin-left: 60px;
+margin-top: 15px;
+z-index:5000;
+padding: 0px;
+}
+
+#Nav_M{
+position: absolute;
+background-image: url("../Home/Images/Header_Cells.png");
+left: 50%;
+height: 36px;
+width: 630px;
+margin: auto;
+margin-left: -315px;
+padding: 0px;
+z-index:5000;
+}
+#Nav_R{
+position: relative;
+background-image: url("../Home/Images/Contact_E.png");
+width: 240px;
+height: 36px;
+background-repeat: no-repeat;
+margin-top: 15px;
+float: right;
+margin-right: 20px;
+
+ 
+
+
+}
+
+
+#Wrapper{
+position: absolute;
+background-color: #242524;
+width:800px;
+height:1050px;
+left: 50%;
+margin-left: -400px;
+margin-top: 70px;
+z-index: 1;
+float:left;
+}
+#canvas{
+/**background-image: url("../Home/Images/Steve_Montgomery.jpg");**/
+color: white;
+margin-left: 100px;
+width:800px;
+height:100%;
+z-index: 2;
+
+
+}
+#Download_Bar{
+position:relative;
+width: 100%;
+height:100px;
+float: left;
+}
+#Bar_Wrap{
+width: 200px;
+height: 50px;
+margin-left:auto;
+margin-right: auto;
+
+}
+#PDF_F{
+background-image: url("../Resume/PDF.png");
+width: 50px;
+height: 50px;
+float:left;
+}
+#Word_F{
+background-image: url("../Resume/Word.png");
+width: 50px;
+height: 50px;
+float:right;
+
+}
+#Foot_Wrapper{
+background-image: url("../Home/Images/Repeater_Cells_Bot.png");
+position: fixed;
+height: 36px;
+width: 100%;
+bottom: 0px;
+z-index: 5000;
+
+
+}
+#Copyright_Shit{
+background-image: url("../Home/Images/CPR.png");
+width: 165px;
+height:9px;
+margin-top: 15px;
+margin-left: auto;
+margin-right: auto;
+}
